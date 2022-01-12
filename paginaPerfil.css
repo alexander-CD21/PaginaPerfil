@@ -1,0 +1,354 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Balsamiq Sans', cursive;
+    font-weight: 900;
+}
+.barraNav{
+    background-color: black;
+    color: white;
+    display: flex;
+    
+}
+.Profile{
+    margin-left: 200px;
+}
+.Home{
+    color: #ccc;
+    height: 40px;
+    margin-left: 30px; 
+    margin-top: 17px;
+    justify-content: center;
+}
+.MyProfile{
+    margin-top: 17px;
+    margin-left: 30px;
+}
+.FindConection{
+    color: #ccc;
+    margin-top: 17px;
+    margin-left: 30px;
+}
+.SignOut{
+    margin-left: 170px;
+    
+}
+.SignOut > button{
+    color: white;
+    margin-top: 25px;
+    background-color: #17a2b8;
+    border: 1px solid black ;
+    padding: 5px;
+    font-family: 'Balsamiq Sans', cursive;
+    font-weight: 900;
+}
+.contenedor2{
+    display: flex;
+    margin-left: 150px;
+}
+
+.contenedor3{
+    display: block;
+    margin-left: 50px;
+    width:400px;
+}
+
+.ContenedorPerfil{
+    border: 4px solid #ccc;
+    margin-top: 20px;
+}
+.fondo{
+    height: 80px;
+    background-color:#17a2b8 ;
+    
+}
+
+.fondo > img{
+    height: 80px;
+    border-radius: 50%;
+    position: relative;
+    top: 35px; 
+    left: 20px;
+}
+.DescripcionNombre > h1 {
+    margin-top :35px;;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+.DescripcionUbicacion{
+    height: 30px;
+    display: flex;  
+}
+.logo{
+    height: 30px;
+    width: 20px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.logo>img  {
+    height: 20px;
+    left: 10px;
+    
+    
+} 
+.nombreUbicacion{
+    height: 30px;
+    width: 65px;
+    margin-bottom: 5px;
+}
+.nombreUbicacion>h2{
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+.DescripcionHabilidades{
+    margin-left: 20px;
+}
+.DescripcionHabilidades>p{
+    margin-bottom: 5px;
+}
+.DescripcionTitulos{
+    margin-left: 20px;
+}
+.DescripcionTitulos>p{
+    margin-top: 5px;
+}
+.EditarProfile{
+    display: flex;
+    margin-bottom: 10px;
+}
+.rueda{
+    height: 20px;
+    margin-left: 20px;
+}
+.rueda>img{
+    height: 20px;
+}
+.ruedaProfile{
+    margin-left: 10px;
+}
+.contenedorEducacion{
+    display: block;
+    margin-top: 30px;
+    border: 4px solid #ccc;
+}
+.fondo1{
+    display: flex;
+    height: 40px;
+    background-color: black;
+    color: white;
+    
+   
+}
+.Titulo2{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.EducacionDescripcion{
+    display: block;
+}
+.EducationNombre>h3{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+.EducationFecha>p{
+    color:#838383;
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+.EducationContenido>p{
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.contenedor4{
+    display: block;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.contenedorConection{
+    
+    height: 160px;
+    width: 250px;
+    border:4px solid #ccc;
+}
+.ConectionRequests{
+
+    height: 50px;
+    color: white;
+    display: flex;
+    background-color: black;
+}
+.RequestsIcono{
+    height: 20px;
+    width: 20px;
+    border: 3px solid #ccc;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+.dos{
+    margin: 1px 5px 1px 6px;
+}
+
+.Nombre2{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.ConectionDescripcion1{
+    display: flex;
+}
+.ConectionIcono{
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+    
+}
+.ConectionIcono>img{
+    height: 30px;
+    width: 30px;
+    border: 3px solid #ccc;
+    border-radius: 50%;
+}
+.ConectionNombres{
+    margin-left: 20px;
+}
+.ConectionCheck{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 50px;
+    height: 30px;
+    width: 30px;
+}
+.ConnectionDescripcion2{
+    display: flex;
+}
+.ConectionIcono1{
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+    
+}
+.ConectionIcono1>img{
+    height: 30px;
+    width: 30px;
+    border: 3px solid #ccc;
+    border-radius: 50%;
+}
+.ConectionNombres1{
+    margin-left: 21px;
+}
+.ConectionCheck1{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 55px;
+    height: 30px;
+    width: 30px;
+}
+
+.contenedorYour{
+    margin-top: 30px;
+    border: 4px solid #ccc;
+}
+.contenedorYour1{
+    display:flex;
+    background-color: black;
+    color: white;
+}
+
+.MasIcono{
+    color: black;
+    background-color: #ccc;
+    height: 20px;
+    width: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: 3px solid #ccc;
+    border-radius: 50%;
+}
+.MasIcono1>p{
+    margin-top: 1px;
+    margin-left: 5px;
+}
+.MasDescripcion{
+    margin-left: 20px;
+}
+.MasDescripcion>p{
+    margin-top: 15px;
+}
+
+.YourNombre1{
+    display: flex;
+}
+.YourNombreIcono>img{
+    height: 30px;
+    width: 30px;
+    border: 3px solid #ccc ;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.YourNombreDetalle{
+    margin-left: 20px;
+}
+.YourNombre2{
+    display: flex;
+}
+.YourNombreIcono1>img{
+    height: 30px;
+    width: 30px;
+    border: 3px solid #ccc;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.YourNombreDetalle1{
+    margin-left: 20px;
+}
+.YourNombre3{
+    display: flex;
+}
+.YourNombreIcono2>img{
+    height: 30px;
+    width: 30px;
+    border: 3px solid #ccc;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.YourNombreDetalle2{
+    margin-left: 20px;
+}
+.YourNombre4{
+    display: flex;
+}
+.YourNombreIcono3>img{
+    height: 30px;
+    width: 30px;
+    border: 3px solid #ccc;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.YourNombreDetalle3{
+    margin-left: 20px;
+}
+.Yourview{
+    height: 40px;
+    border-top: 4px solid #ccc;
+}
+/*.Yourview>a{
+    margin-top: 20px;
+    margin-left: 20px;
+}*/
+.view1{
+    margin-top: 10px;
+    margin-left: 20px;
+}
